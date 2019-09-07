@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-/*int main(void)
+int main(void)
 {
-	char fruit[20] = "strawberry";		// char ¹è¿­ ¼±¾ğ°ú ¹®ÀÚ¿­ ÃÊ±âÈ­
+	char fruit[20] = "strawberry";		// char ë°°ì—´ ì„ ì–¸ê³¼ ë¬¸ìì—´ ì´ˆê¸°í™”
 
-	printf("µş±â : %s\n", fruit);				// ¹è¿­¸íÀ¸·Î ÀúÀåµÈ ¹®ÀÚ¿­ Ãâ·Â
-	printf("µş±âÂ´ : %s %s\n", fruit, "jam");	// ¹®ÀÚ¿­ »ó¼ö¸¦ Á÷Á¢ %s·Î Ãâ·Â
+	printf("ë”¸ê¸° : %s\n", fruit);				// ë°°ì—´ëª…ìœ¼ë¡œ ì €ì¥ëœ ë¬¸ìì—´ ì¶œë ¥
+	printf("ë”¸ê¸°ì¨ˆ : %s %s\n", fruit, "jam");	// ë¬¸ìì—´ ìƒìˆ˜ë¥¼ ì§ì ‘ %së¡œ ì¶œë ¥
 
 	return 0;
-}*/
+}
