@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-/*int main(void)
+int main(void)
 {
 	char ch1 = 'A';
 	char ch2 = 65;
 	
-	printf("¹®ÀÚ %cÀÇ ¾Æ½ºÅ° ÄÚµå °ª : %d\n", ch1, ch1);
-	printf("¾Æ½ºÅ° ÄÚµå °ªÀÌ %dÀÎ ¹®ÀÚ : %c\n", ch2, ch2);
+	printf("ë¬¸ì %cì˜ ì•„ìŠ¤í‚¤ ì½”ë“œ ê°’ : %d\n", ch1, ch1);
+	printf("ì•„ìŠ¤í‚¤ ì½”ë“œ ê°’ì´ %dì¸ ë¬¸ì : %c\n", ch2, ch2);
 
 	return 0;
-}*/
+}
