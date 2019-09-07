@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-/*int main(void)
+int main(void)
 {
-	int income = 0;							// ¼Òµæ¾× ÃÊ±âÈ­
-	double tax;								// ¼¼±İ
-	const double tax_rate = 0.12;			// ¼¼À² ÃÊ±âÈ­
+	int income = 0;							// ì†Œë“ì•¡ ì´ˆê¸°í™”
+	double tax;								// ì„¸ê¸ˆ
+	const double tax_rate = 0.12;			// ì„¸ìœ¨ ì´ˆê¸°í™”
 
-	income = 456;							// ¼Òµæ¾× ÀúÀå
-	tax = income * tax_rate;				// ¼¼±İ °è»ê
-	printf("¼¼±İÀº : %.1lfÀÔ´Ï´Ù.\n", tax);
+	income = 456;							// ì†Œë“ì•¡ ì €ì¥
+	tax = income * tax_rate;				// ì„¸ê¸ˆ ê³„ì‚°
+	printf("ì„¸ê¸ˆì€ : %.1lfì…ë‹ˆë‹¤.\n", tax);
 
 	return 0;
-}*/
+}
