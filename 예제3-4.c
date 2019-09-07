@@ -1,13 +1,13 @@
 # include <stdio.h>
 
-/*int main(void)
+int main(void)
 {
 	unsigned int a;
 
-	a = 4294967295;			// Å« ¾ç¼ö ÀúÀå
-	printf("%d\n", a);		// %d·Î Ãâ·Â
-	a = -1;					// À½¼ö ÀúÀå
-	printf("%u\n", a);		// %u·Î Ãâ·Â
+	a = 4294967295;			// í° ì–‘ìˆ˜ ì €ì¥
+	printf("%d\n", a);		// %dë¡œ ì¶œë ¥
+	a = -1;					// ìŒìˆ˜ ì €ì¥
+	printf("%u\n", a);		// %uë¡œ ì¶œë ¥
 
 	return 0;
-}*/
+}
