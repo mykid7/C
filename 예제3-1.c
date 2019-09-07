@@ -1,23 +1,23 @@
 #include <stdio.h>
 
-/*int main(void)
+int main(void)
 {
-	int a;			// intÇü º¯¼ö a ¼±¾ğ
-	int b, c;		// 2°³ÀÇ intÇü º¯¼ö b,c¸¦ µ¿½Ã¿¡ ¼±¾ğ
-	double da;		// doubleÇü º¯¼ö da ¼±¾ğ
-	char ch;		// charÇü º¯¼ö ch ¼±¾ğ
+	int a;			// intí˜• ë³€ìˆ˜ a ì„ ì–¸
+	int b, c;		// 2ê°œì˜ intí˜• ë³€ìˆ˜ b,cë¥¼ ë™ì‹œì— ì„ ì–¸
+	double da;		// doubleí˜• ë³€ìˆ˜ da ì„ ì–¸
+	char ch;		// charí˜• ë³€ìˆ˜ ch ì„ ì–¸
 
-	a = 10;			// intÇü º¯¼ö a¿¡ Á¤¼ö 10 ´ëÀÔ
-	b = a;			// intÇü º¯¼ö b¿¡ º¯¼ö aÀÇ °ª ´ëÀÔ
-	c = a + 20;		// intÇü º¯¼ö c¿¡ º¯¼ö aÀÇ °ª°ú Á¤¼ö 20À» ´õÇÑ °ª ´ëÀÔ
-	da = 3.5;		// doubleÇü º¯¼ö da¿¡ ½Ç¼ö 3.5 ´ëÀÔ
-	ch = 'A';		// charÇü º¯¼ö chdp ¹®ÀÚ 'A' ´ëÀÔ
+	a = 10;			// intí˜• ë³€ìˆ˜ aì— ì •ìˆ˜ 10 ëŒ€ì…
+	b = a;			// intí˜• ë³€ìˆ˜ bì— ë³€ìˆ˜ aì˜ ê°’ ëŒ€ì…
+	c = a + 20;		// intí˜• ë³€ìˆ˜ cì— ë³€ìˆ˜ aì˜ ê°’ê³¼ ì •ìˆ˜ 20ì„ ë”í•œ ê°’ ëŒ€ì…
+	da = 3.5;		// doubleí˜• ë³€ìˆ˜ daì— ì‹¤ìˆ˜ 3.5 ëŒ€ì…
+	ch = 'A';		// charí˜• ë³€ìˆ˜ chdp ë¬¸ì 'A' ëŒ€ì…
 
-	printf("º¯¼ö aÀÇ °ª : %d\n", a);
-	printf("º¯¼ö bÀÇ °ª : %d\n", b);
-	printf("º¯¼ö cÀÇ °ª : %d\n", c);
-	printf("º¯¼ö daÀÇ °ª : %.1lf\n", da);
-	printf("º¯¼ö chÀÇ °ª : %c\n", ch);
+	printf("ë³€ìˆ˜ aì˜ ê°’ : %d\n", a);
+	printf("ë³€ìˆ˜ bì˜ ê°’ : %d\n", b);
+	printf("ë³€ìˆ˜ cì˜ ê°’ : %d\n", c);
+	printf("ë³€ìˆ˜ daì˜ ê°’ : %.1lf\n", da);
+	printf("ë³€ìˆ˜ chì˜ ê°’ : %c\n", ch);
 
 	return 0;
-}*/
+}
