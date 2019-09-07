@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>		// Ãß°¡ÇÑ ÄÚµå
+#include <stdlib.h>		// 추가한 코드
 
 int main(void)
 {
 	printf("Be happy!");
-	system("pause");	// Ãß°¡ÇÑ ÄÚµå
+	system("pause");	// 추가한 코드
 
 	return 0;
 }
