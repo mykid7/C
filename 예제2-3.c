@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-/*int main(void)
+int main(void)
 {
-	printf("Be happy\n");				// "Be happy"¸¦ Ãâ·ÂÇÏ°í ÁÙÀ» ¹Ù²Þ(\n)
-	printf("12345678901234567890\n");	// È­¸é¿¡ ¿­ ¹øÈ£ Ãâ·ÂÇÏ°í ÁÙÀ» ¹Ù²Þ(\n)
+	printf("Be happy\n");				// "Be happy"ë¥¼ ì¶œë ¥í•˜ê³  ì¤„ì„ ë°”ê¿ˆ(\n)
+	printf("12345678901234567890\n");	// í™”ë©´ì— ì—´ ë²ˆí˜¸ ì¶œë ¥í•˜ê³  ì¤„ì„ ë°”ê¿ˆ(\n)
 	printf("My\tfriend\n");
-	// "My"¸¦ Ãâ·ÂÇÏ°í Çà À§Ä¡·Î ÀÌµ¿(\t) ÈÄ¿¡ "friend"¸¦ Ãâ·ÂÇÏ°í ÁÙÀ» ¹Ù²Þ(\n)
-	printf("Goot\bd\tchance\n");		// "Goot"¸¦ Ãâ·ÂÇÏ°í ÇÑ Ä­ ¿ÞÂÊÀ¸·Î ÀÌµ¿(\b)ÇØ
-	// t¸¦ d·Î ¹Ù²Ù°í ¿ø À§Ä¡·Î ÀÌµ¿(\t) ÈÄ¿¡ "chance"¸¦ Ãâ·ÂÇÏ°í ÁÙÀ» ¹Ù²Þ(\n)
+	// "My"ë¥¼ ì¶œë ¥í•˜ê³  í–‰ ìœ„ì¹˜ë¡œ ì´ë™(\t) í›„ì— "friend"ë¥¼ ì¶œë ¥í•˜ê³  ì¤„ì„ ë°”ê¿ˆ(\n)
+	printf("Goot\bd\tchance\n");		// "Goot"ë¥¼ ì¶œë ¥í•˜ê³  í•œ ì¹¸ ì™¼ìª½ìœ¼ë¡œ ì´ë™(\b)í•´
+	// të¥¼ dë¡œ ë°”ê¾¸ê³  ì› ìœ„ì¹˜ë¡œ ì´ë™(\t) í›„ì— "chance"ë¥¼ ì¶œë ¥í•˜ê³  ì¤„ì„ ë°”ê¿ˆ(\n)
 	printf("Cow\rW\a\n");
-	// ¸Ç ¾ÕÀ¸·Î ÀÌµ¿(\r)ÇØ C¸¦ W·Î ¹Ù²Ù°í º§¼Ò¸®(\a)¸¦ ³»°í ÁÙÀ» ¹Ù²Þ(\n)
+	// ë§¨ ì•žìœ¼ë¡œ ì´ë™(\r)í•´ Cë¥¼ Wë¡œ ë°”ê¾¸ê³  ë²¨ì†Œë¦¬(\a)ë¥¼ ë‚´ê³  ì¤„ì„ ë°”ê¿ˆ(\n)
 
 	return 0;
-}*/
+}
