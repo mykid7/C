@@ -1,9 +1,9 @@
-#include <stdio.h>	// stdio : stamulard input output(Ç¥ÁØÀÔÃâ·Â)ÀÇ ÁÙÀÓ¸»
+#include <stdio.h>	// stdio : stamulard input output(í‘œì¤€ì…ì¶œë ¥)ì˜ ì¤„ì„ë§
 
-/*int main(void)
+int main(void)
 {
-	printf("Be happy");		// ¹®ÀÚ¿­ "Be happy" Ãâ·Â
-	printf("My frined");	// ¹®ÀÚ¿­ "My frined" Ãâ·Â
+	printf("Be happy");		// ë¬¸ìì—´ "Be happy" ì¶œë ¥
+	printf("My frined");	// ë¬¸ìì—´ "My frined" ì¶œë ¥
 
-	return 0;	//ÇÁ·Î±×·¥ Á¾·á
-}*/
+	return 0;	//í”„ë¡œê·¸ë¨ ì¢…ë£Œ
+}
