@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>		// �߰��� �ڵ�
+#include <stdlib.h>		// Ãß°¡ÇÑ ÄÚµå
 
-/*int main(void)
+int main(void)
 {
 	printf("Be happy!");
-	system("pause");	// �߰��� �ڵ�
+	system("pause");	// Ãß°¡ÇÑ ÄÚµå
 
 	return 0;
-}*/
+}
