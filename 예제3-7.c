@@ -1,14 +1,14 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <string.h>						// ¹®ÀÚ¿­À» ´Ù·ê ¼ö ÀÖ´Â string.h Çì´õ ÆÄÀÏ Æ÷ÇÔ
+#include <string.h>						// ë¬¸ìì—´ì„ ë‹¤ë£° ìˆ˜ ìˆëŠ” string.h í—¤ë” íŒŒì¼ í¬í•¨
 
-/*int main()
+int main()
 {
-	char fruit[20] = "strawberry";		// strawberry·Î ÃÊ±âÈ­
+	char fruit[20] = "strawberry";		// strawberryë¡œ ì´ˆê¸°í™”
 
-	printf("%s\n", fruit);				// strawberry Ãâ·Â
-	strcpy(fruit, "banana");			// fruit¿¡ banana º¹»ç
-	printf("%s\n", fruit);				// banana Ãâ·Â
+	printf("%s\n", fruit);				// strawberry ì¶œë ¥
+	strcpy(fruit, "banana");			// fruitì— banana ë³µì‚¬
+	printf("%s\n", fruit);				// banana ì¶œë ¥
 
 	return 0;
-}*/
+}
