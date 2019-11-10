@@ -13,8 +13,6 @@ void PN4(int num);
 clock_t start, finish;
 double t1, t2, t3, t4;
 
-int p[1000000] = { 2, 3, 0 };
-
 int main(void)
 {
 	int i, j, num, buttom;
@@ -88,7 +86,7 @@ void PN2(int num)
 void PN3(int num)
 {
 	int i, j, k;
-	
+	int p[100000] = { 2, 3, 0 };
 
 	//More Efficient Algorithm for Prime Number Finding
 	start = clock();
@@ -96,7 +94,7 @@ void PN3(int num)
 	printf("2 3 ");
 	k = 2;
 	for (i = 4; i <= num; i++) {
-		/*for (j = 0; j < i; j++) {	*/for (j = 0; j < (int)sqrt(i); j++) {
+		for (j = 0; j < i; j++) {	//for (j = 0; j < (int)sqrt(i); j++ {
 			if ((i % p[j]) == 0) break;
 			else if (j == k - 1) {
 				printf("%d ", i);
@@ -115,14 +113,14 @@ void PN3(int num)
 void PN4(int num)
 {
 	int i, j, k;
-	
+	int p[100000] = { 2, 3, 0 };
 
 	//Sieve of Eratosthenes Algorithm for Prime Number Finding
 	start = clock();
 
-	for (i = 0; i < 1000000; i++) p[i] = i;
-	for (i = 4; i < 1000000; i += 2) p[i] = 0;
-	for (i = 6; i < 1000000; i += 3) p[i] = 0;
+	for (i = 0; i < 100000; i++) p[i] = i;
+	for (i = 4; i < 100000; i += 2) p[i] = 0;
+	for (i = 6; i < 100000; i += 3) p[i] = 0;
 
 	printf("2 3 ");
 	for (i = 4; i < num; i++) {
